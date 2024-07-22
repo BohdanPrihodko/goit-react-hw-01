@@ -1,0 +1,28 @@
+.friendCard {
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.friendCard:hover {
+  border: 2px solid rgb(216, 11, 38);
+}
+
+.friendImg img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.friendName {
+  color: black;
+  text-align: center;
+}
+
+.isOnline {
+  color: greenyellow;
+  text-align: center;
+}
+
+.offline {
+  color: red;
+  text-align: center;
+}

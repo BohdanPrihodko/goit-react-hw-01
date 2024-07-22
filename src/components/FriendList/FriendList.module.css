@@ -1,0 +1,11 @@
+.friendList {
+ margin-bottom: 20px;
+ background-color: rgb(195, 187, 176);
+ padding: 20px;
+}
+
+.friendItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}

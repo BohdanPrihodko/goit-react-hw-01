@@ -1,0 +1,97 @@
+.profileBox {
+    margin-bottom: 20px;
+    background-color: #D6DADB;
+}
+
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+.avatar{
+    line-height: 0;
+    display: inline-block;
+    margin: 5px;
+    border: 4px solid black;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #392e4a;
+    margin-bottom: 30px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.statisticsList {
+    display: flex;
+    background-color: #c0c0c0;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c0c0c0;
+    border: 4px solid black;
+}
+
+.statisticsItem {
+   display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+    font-weight: 400;
+    line-height: 51px;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.name {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    line-height: 41px;
+    font-size: 31px;
+}
+
+
+.tag {
+    font-weight: 400;
+    line-height: 51px;
+    font-size: 26px;
+    color: #B0B0B0;
+}
+
+.location {
+    font-weight: 400;
+    line-height: 41px;
+    font-size: 26px;
+    color: #B0B0B0;
+}
+
+@media screen and (min-width: 768px) {
+ .avatar{
+    max-width: 200px;
+    max-height: 200px;
+ }
+}
+
+
+@media screen and (min-width: 1280px) {
+ .avatar{
+    max-width: 400px;
+    max-height: 400px;
+ }
+}
+    
